@@ -31,3 +31,11 @@ Zaimplementuj metodę NumberHelper.average(List<Integer> list) tak, aby wszystki
 # Zadanie 5
 
 Przy pomocy refleksji przetestuj mechanizm realokacji rozmiaru tablicy w CustomArrayList.
+
+# Zadanie 6
+
+Stosując podejście TDD, napisz implementację klasy [Factorial](https://en.wikipedia.org/wiki/Factorial) (PL: silnia),
+która posiada metodę `calculateFactorial()`. Podpowiedzi:
+
+- fake it till You make it
+- [Green - Red - Refactor](https://www.codecademy.com/articles/tdd-red-green-refactor)
