@@ -17,6 +17,9 @@ CustomArrayList zawiera wbudowany mechanizm realokacji, który zwiększy długo�
 90% lub zmniejszy w przypadku spadnięcia zapełnienia poniżej 60%. Nowy rozmiar tablicy po realokacji będzie taki, żeby
 była ona zapełniona w 75%. Napisz testy, które sprawdzą, czy tablica faktycznie jest zwiększana („czy”, a nie „o ile”).
 
+Dodatkowe informacje na temat tego, co robia dane metody, mozecie znalezc podgladajac
+interfejs [java.util.List](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/List.html).
+
 # Zadanie 3
 
 Stosując podejście TDD, napisz testy jednostkowe dla metod znajdujących się w klasie NumberHelper.
@@ -26,8 +29,5 @@ Stosując podejście TDD, napisz testy jednostkowe dla metod znajdujących się 
 Zaimplementuj metodę NumberHelper.average(List<Integer> list) tak, aby wszystkie Twoje testy jednostkowe były zielone.
 
 # Zadanie 5
-
-Jest to zadanie dodatkowe, które zostanie sprawdzone jedynie w przypadku ukończenia pozostałych zadań i może podnieść
-ocenę, ale nie może jej obniżyć.
 
 Przy pomocy refleksji przetestuj mechanizm realokacji rozmiaru tablicy w CustomArrayList.
